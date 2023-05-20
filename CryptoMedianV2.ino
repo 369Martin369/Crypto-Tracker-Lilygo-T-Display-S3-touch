@@ -284,9 +284,9 @@ void setup() {
   Serial.begin(115200);
   delay(10);
   
-  wifiMulti.addAP("MartinMobile", "Maja123123");  
-  wifiMulti.addAP("Birkenruh", "keineskeines");
-  wifiMulti.addAP("NDF-Superfast", "keineskeines");
+  wifiMulti.addAP("x, "x");  
+  wifiMulti.addAP("x", "x");
+  wifiMulti.addAP("x-x", "x");
   
   pinMode(PIN_POWER_ON, OUTPUT);
   digitalWrite(PIN_POWER_ON, HIGH); // Akku an
